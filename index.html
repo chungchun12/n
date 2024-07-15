@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>나의 개인 홈페이지</title>
+  <link rel="stylesheet" href="style.css"> 
+  <style type="text/css">
+.auto-style1 {
+	font-family: 만화진흥원체;
+}
+.auto-style3 {
+	font-family: 만화진흥원체;
+	font-size: x-large;
+	color: #000000;
+}
+.auto-style4 {
+	font-family: 만화진흥원체;
+	font-size: medium;
+}
+.auto-style5 {
+	font-family: 만화진흥원체;
+	color: #000000;
+}
+.auto-style6 {
+	color: #000000;
+}
+</style>
+  <script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+<body onload="FP_preloadImgs(/*url*/'buttonD.jpg',/*url*/'buttonE.jpg')" style="background-image: url('../_96e909e0-04cf-42de-a556-5369bd5107cb(1).png')">
+  <header>
+    <h1 class="auto-style5">7월의 꿈 개인 사이트</h1> <nav>
+      <ul>
+        <li class="auto-style1"><a href="#about"><span class="auto-style6">소개</span></a></li> 
+		  <li class="auto-style1"><a href="#projects"><span class="auto-style6">프로젝트</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2 class="auto-style5">소개</h2>
+      <p class="auto-style1"><span class="auto-style6">7월의 꿈이란, 저에게 특별한 의미를 지닙니다. 
+	  </span>&nbsp;<a href="7월의%20꿈-소개%20더%20알아보기.html"><img id="img1" alt="더 알아보기" fp-style="fp-btn: Metal Tab 6; fp-font: 만화진흥원체" fp-title="더 알아보기" height="33" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttonE.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'buttonC.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttonD.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'buttonD.jpg')" src="buttonC.jpg" style="border: 0" width="100" class="auto-style6"></a></p>
+    </section>
+
+    <section id="projects">
+      <h2 class="auto-style3">관련 링크</h2>
+      <ul>
+        <li class="auto-style1"><a href="https://namu.wiki/w/7월">
+		<span class="auto-style6">7월-나무위키</span></a></li>
+        <li class="auto-style1"><a href="https://ko.wikipedia.org/wiki/7월">
+		<span class="auto-style6">7월-위키백과</span></a></li>
+        </ul>
+    	<p class="auto-style3"><strong>자료실-여기에서 다양한 자료를 만나보아요!</strong></p>
+		<p class="auto-style4"><a href="https://yabie516.com/205">아래아 한글</a> 
+		다운로드&nbsp;</p>
+		<p class="auto-style4">
+		<a href="https://blog.naver.com/enpick/222631701607">마이크로소프트 익스프레션 웹 4 
+		설치</a>(웹사이트 제작 도구)</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="auto-style5">© 2024 7월의 꿈</p> </footer>
+</body>
+</html>
